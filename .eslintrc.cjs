@@ -9,7 +9,6 @@ module.exports = {
     'plugin:vue/vue3-recommended',
     'plugin:prettier/recommended'
   ],
-
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module'
@@ -21,7 +20,9 @@ module.exports = {
       {
         endOfLine: 'auto'
       }
-    ]
-    // Add any additional ESLint rules here
+    ],
+    'vue/html-self-closing': 'off',
+    'vue/max-attributes-per-line': 'off'
+    // Disable any ESLint rules that conflict with Prettier
   }
 }
