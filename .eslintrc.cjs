@@ -2,12 +2,14 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    node: true
+    node: true,
+    'vitest-globals/env': true
   },
   extends: [
     'eslint:recommended',
     'plugin:vue/vue3-recommended',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    'plugin:vitest-globals/recommended'
   ],
   parserOptions: {
     ecmaVersion: 12,

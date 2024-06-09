@@ -5,5 +5,5 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "playground/playground-objects.js"]
 }
